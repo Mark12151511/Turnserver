@@ -6,252 +6,252 @@
   apputils.cpp
   hiredis_libevent2.cpp
   ns_turn_allocation.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_allocation.cpp(330,37): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_allocation.cpp(330,37): warning :   chn->port = addr_get_port(peer_addr);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_allocation.cpp(330,37): warning :                                      ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_allocation.cpp(330,37): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_allocation.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_allocation.cpp(330,37): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_allocation.o /tmp/ccegO4y8.s
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_allocation.cpp(330,37): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_allocation.cpp(330,37): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_allocation.cpp(330,37): warning :   chn->port = addr_get_port(peer_addr);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_allocation.cpp(330,37): warning :                                      ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_allocation.cpp(330,37): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_allocation.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_allocation.cpp(330,37): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_allocation.o /tmp/cclH3gbj.s
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_allocation.cpp(330,37): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   ns_turn_ioaddr.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(215,25): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(215,25): message :      addr->s4.sin_port = nswap16(port);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(215,25): message :                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(221,26): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(221,26): message :      addr->s6.sin6_port = nswap16(port);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(221,26): message :                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(253,28): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(253,28): message :         addr->s4.sin_port = nswap16(port);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(253,28): message :                             ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(261,29): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(261,29): message :         addr->s6.sin6_port = nswap16(port);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(261,29): message :                              ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(393,27): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(393,27): message :        addr->s4.sin_port = nswap16(port);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(393,27): message :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message :        addr->s6.sin6_port = nswap16(port);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message :                             ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_ioaddr.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_ioaddr.o /tmp/ccwSPu1B.s
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(215,25): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(215,25): message :      addr->s4.sin_port = nswap16(port);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(215,25): message :                          ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(221,26): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(221,26): message :      addr->s6.sin6_port = nswap16(port);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(221,26): message :                           ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(253,28): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(253,28): message :         addr->s4.sin_port = nswap16(port);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(253,28): message :                             ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(261,29): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(261,29): message :         addr->s6.sin6_port = nswap16(port);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(261,29): message :                              ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(393,27): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(393,27): message :        addr->s4.sin_port = nswap16(port);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(393,27): message :                            ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message :        addr->s6.sin6_port = nswap16(port);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message :                             ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_ioaddr.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_ioaddr.o /tmp/cc2jaQ6M.s
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_ioaddr.cpp(395,28): message : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   ns_turn_maps.cpp
   ns_turn_maps_rtcp.cpp
   ns_turn_msg.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(377,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(377,27): warning :     ((method & 0x0380)<<2) | ((method & 0x0C00)<<2));
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(377,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(386,24): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(386,24): warning :      ((tt & 0x0E00)>>2) | ((tt & 0x3000)>>2);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(386,24): warning :                         ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_defs.h(58,61): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_defs.h(58,61): warning :  #define GET_STUN_INDICATION(msg_type)   ((msg_type & 0xFEEF)|0x0010)
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_defs.h(58,61): warning :                                                              ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(577,10): message : in expansion of macro ‘GET_STUN_INDICATION’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(577,10): message :    return GET_STUN_INDICATION(stun_make_type(method));
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(577,10): message :           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_defs.h(59,62): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_defs.h(59,62): warning :  #define GET_STUN_SUCCESS_RESP(msg_type)  ((msg_type & 0xFEEF)|0x0100)
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_defs.h(59,62): warning :                                                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(581,10): message : in expansion of macro ‘GET_STUN_SUCCESS_RESP’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(581,10): message :    return GET_STUN_SUCCESS_RESP(stun_make_type(method));
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(581,10): message :           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(768,23): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(768,23): warning :    rlen = ((rlen>>2)+1)<<2;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(768,23): warning :                        ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(790,36): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(790,36): warning :   datalen_actual = (u16bits)(*blen) - 4;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(790,36): warning :                                     ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(808,35): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(808,35): warning :      u16bits diff = datalen_actual - datalen_header;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(808,35): warning :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(904,12): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(904,12): warning :         len += STUN_HEADER_LENGTH;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(904,12): warning :             ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(929,22): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(929,22): warning :      u16bits bret = (4+(nswap16(((const u16bits*)(buf))[1])));
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(929,22): warning :                       ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(934,26): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(934,26): warning :       bret = ((bret>>2)+1)<<2;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(934,26): warning :                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1061,89): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1061,89): warning :      stun_init_error_response_str(STUN_METHOD_ALLOCATE, buf, len, error_code, reason, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1061,89): warning :                                                                                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1073,29): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1073,29): warning :      channel_number = 0x4000 + ((u16bits)(((u32bits)turn_random())%(0x7FFF-0x4000+1)));
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1073,29): warning :                              ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1096,93): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1096,93): warning :      stun_init_error_response_str(STUN_METHOD_CHANNEL_BIND, buf, len, error_code, reason, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1096,93): warning :                                                                                              ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1126,86): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1126,86): warning :    stun_init_error_response_str(STUN_METHOD_BINDING, buf, len, error_code, reason, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1126,86): warning :                                                                                       ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1128,98): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1128,98): warning :    old_stun_init_error_response_str(STUN_METHOD_BINDING, buf, len, error_code, reason, tid, cookie);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1128,98): warning :                                                                                                   ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1400,23): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1400,23): message :      attr_start_16t[1]=nswap16(alen);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(1400,23): message :                        ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(2037,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(2037,17): warning :     *s = c - 'a' + 'A';
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(2037,17): warning :                  ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(2037,17): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(2037,17): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg.o /tmp/ccLSHuVR.s
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg.cpp(2037,17): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(377,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(377,27): warning :     ((method & 0x0380)<<2) | ((method & 0x0C00)<<2));
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(377,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(386,24): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(386,24): warning :      ((tt & 0x0E00)>>2) | ((tt & 0x3000)>>2);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(386,24): warning :                         ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_defs.h(58,61): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_defs.h(58,61): warning :  #define GET_STUN_INDICATION(msg_type)   ((msg_type & 0xFEEF)|0x0010)
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_defs.h(58,61): warning :                                                              ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(577,10): message : in expansion of macro ‘GET_STUN_INDICATION’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(577,10): message :    return GET_STUN_INDICATION(stun_make_type(method));
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(577,10): message :           ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_defs.h(59,62): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_defs.h(59,62): warning :  #define GET_STUN_SUCCESS_RESP(msg_type)  ((msg_type & 0xFEEF)|0x0100)
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_defs.h(59,62): warning :                                                               ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(581,10): message : in expansion of macro ‘GET_STUN_SUCCESS_RESP’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(581,10): message :    return GET_STUN_SUCCESS_RESP(stun_make_type(method));
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(581,10): message :           ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(768,23): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(768,23): warning :    rlen = ((rlen>>2)+1)<<2;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(768,23): warning :                        ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(790,36): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(790,36): warning :   datalen_actual = (u16bits)(*blen) - 4;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(790,36): warning :                                     ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(808,35): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(808,35): warning :      u16bits diff = datalen_actual - datalen_header;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(808,35): warning :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(904,12): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(904,12): warning :         len += STUN_HEADER_LENGTH;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(904,12): warning :             ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(929,22): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(929,22): warning :      u16bits bret = (4+(nswap16(((const u16bits*)(buf))[1])));
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(929,22): warning :                       ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(934,26): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(934,26): warning :       bret = ((bret>>2)+1)<<2;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(934,26): warning :                           ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1061,89): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1061,89): warning :      stun_init_error_response_str(STUN_METHOD_ALLOCATE, buf, len, error_code, reason, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1061,89): warning :                                                                                          ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1073,29): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1073,29): warning :      channel_number = 0x4000 + ((u16bits)(((u32bits)turn_random())%(0x7FFF-0x4000+1)));
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1073,29): warning :                              ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1096,93): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1096,93): warning :      stun_init_error_response_str(STUN_METHOD_CHANNEL_BIND, buf, len, error_code, reason, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1096,93): warning :                                                                                              ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1126,86): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1126,86): warning :    stun_init_error_response_str(STUN_METHOD_BINDING, buf, len, error_code, reason, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1126,86): warning :                                                                                       ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1128,98): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1128,98): warning :    old_stun_init_error_response_str(STUN_METHOD_BINDING, buf, len, error_code, reason, tid, cookie);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1128,98): warning :                                                                                                   ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1400,23): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1400,23): message :      attr_start_16t[1]=nswap16(alen);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(1400,23): message :                        ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(2037,17): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(2037,17): warning :     *s = c - 'a' + 'A';
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(2037,17): warning :                  ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(2037,17): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(2037,17): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg.o /tmp/ccqKbFh1.s
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg.cpp(2037,17): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   ns_turn_msg_addr.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(51,62): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(51,62): warning :        ((u16bits*)cfield)[1] = (ca->s4.sin_port) ^ nswap16(mc >> 16);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(51,62): warning :                                                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(82,61): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(82,61): warning :        ((u16bits*)cfield)[1] = ca->s6.sin6_port ^ nswap16(mc >> 16);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(82,61): warning :                                                              ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(123,19): warning : conversion to ‘sa_family_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(123,19): warning :    ca->ss.sa_family=sa_family;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(123,19): warning :                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(138,37): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(138,37): warning :        ca->s4.sin_port ^= nswap16(mc >> 16);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(138,37): warning :                                      ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(162,38): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(162,38): warning :        ca->s6.sin6_port ^= nswap16(mc >> 16);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_msg_addr.cpp(162,38): warning :                                       ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg_addr.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg_addr.o /tmp/cc20vlnj.s
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,26): message : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(51,62): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(51,62): warning :        ((u16bits*)cfield)[1] = (ca->s4.sin_port) ^ nswap16(mc >> 16);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(51,62): warning :                                                               ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(82,61): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(82,61): warning :        ((u16bits*)cfield)[1] = ca->s6.sin6_port ^ nswap16(mc >> 16);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(82,61): warning :                                                              ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(123,19): warning : conversion to ‘sa_family_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(123,19): warning :    ca->ss.sa_family=sa_family;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(123,19): warning :                    ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(138,37): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(138,37): warning :        ca->s4.sin_port ^= nswap16(mc >> 16);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(138,37): warning :                                      ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(162,38): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘uint32_t {aka unsigned int}’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(162,38): warning :        ca->s6.sin6_port ^= nswap16(mc >> 16);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_msg_addr.cpp(162,38): warning :                                       ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message : in definition of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :                           ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg_addr.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_msg_addr.o /tmp/ccTstFdw.s
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,26): message : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   ns_turn_server.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(519,24): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘uint64_t {aka long long unsigned int}’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(519,24): warning :      tsi->received_rate = ss->received_rate;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(519,24): warning :                         ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1131,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1131,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1131,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1233,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1233,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1233,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1653,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1653,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1653,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1673,57): warning : conversion to ‘turnserver_id {aka unsigned char}’ from ‘long long unsigned int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1673,57): warning :      turnserver_id tsid = ((0xFF00000000000000LL) & mid) >> 56;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1673,57): warning :                                                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1934,113): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1934,113): warning :     stun_init_error_response_str(STUN_METHOD_REFRESH, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(1934,113): warning :                                                                                                                  ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2107,116): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2107,116): warning :     stun_init_error_response_str(STUN_METHOD_CONNECT, ioa_network_buffer_data(nbh), &len, err_code, NULL, &(tc->tid));
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2107,116): warning :                                                                                                                     ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2378,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2378,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2378,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2471,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2471,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2471,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2489,43): warning : conversion to ‘turnserver_id {aka unsigned char}’ from ‘tcp_connection_id {aka unsigned int}’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2489,43): warning :      turnserver_id sid = (id & 0xFF000000) >> 24;
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2489,43): warning :                                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2521,99): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2521,99): warning :    stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2521,99): warning :                                                                                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2607,118): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2607,118): warning :      stun_init_error_response_str(STUN_METHOD_CONNECTION_BIND, ioa_network_buffer_data(nbh), &len, err_code, NULL, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2607,118): warning :                                                                                                                       ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2726,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2726,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2726,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2956,34): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2956,34): message :      unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(2956,34): message :                                   ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3092,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3092,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3092,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3122,35): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3122,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3122,35): message :                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
-D:\软件项目\SharpRTSP-master\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3253,36): message : in expansion of macro ‘nswap16’
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3253,36): message :        unknown_attrs[(*ua_num)++] = nswap16(attr_type);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3253,36): message :                                     ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3356,98): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3356,98): warning :   stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3356,98): warning :                                                                                                   ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3681,101): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3681,101): warning :      stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(3681,101): warning :                                                                                                      ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4054,96): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4054,96): warning :    stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, NULL, &tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4054,96): warning :                                                                                                 ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4072,99): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4072,99): warning :     stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, reason, &tid);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4072,99): warning :                                                                                                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4192,108): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4192,108): warning :    old_stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, NULL, &tid, cookie);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4192,108): warning :                                                                                                             ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4209,111): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4209,111): warning :     old_stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, reason, &tid, cookie);
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4209,111): warning :                                                                                                                ^
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4209,111): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_server.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4209,111): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_server.o /tmp/ccClwqJJ.s
-D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4209,111): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(519,24): warning : conversion to ‘uint32_t {aka unsigned int}’ from ‘uint64_t {aka long long unsigned int}’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(519,24): warning :      tsi->received_rate = ss->received_rate;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(519,24): warning :                         ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1131,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1131,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1131,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1233,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1233,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1233,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1653,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1653,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1653,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1673,57): warning : conversion to ‘turnserver_id {aka unsigned char}’ from ‘long long unsigned int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1673,57): warning :      turnserver_id tsid = ((0xFF00000000000000LL) & mid) >> 56;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1673,57): warning :                                                          ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1934,113): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1934,113): warning :     stun_init_error_response_str(STUN_METHOD_REFRESH, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(1934,113): warning :                                                                                                                  ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2107,116): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2107,116): warning :     stun_init_error_response_str(STUN_METHOD_CONNECT, ioa_network_buffer_data(nbh), &len, err_code, NULL, &(tc->tid));
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2107,116): warning :                                                                                                                     ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2378,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2378,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2378,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2471,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2471,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2471,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2489,43): warning : conversion to ‘turnserver_id {aka unsigned char}’ from ‘tcp_connection_id {aka unsigned int}’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2489,43): warning :      turnserver_id sid = (id & 0xFF000000) >> 24;
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2489,43): warning :                                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2521,99): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2521,99): warning :    stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2521,99): warning :                                                                                                    ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2607,118): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2607,118): warning :      stun_init_error_response_str(STUN_METHOD_CONNECTION_BIND, ioa_network_buffer_data(nbh), &len, err_code, NULL, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2607,118): warning :                                                                                                                       ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2726,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2726,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2726,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2956,34): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2956,34): message :      unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(2956,34): message :                                   ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3092,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3092,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3092,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3122,35): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3122,35): message :       unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3122,35): message :                                    ^
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :  #define nswap16(s) ntohs(s)
+D:\软件项目\TurnServer\TurnServer\common\..\ns_turn_defs.h(79,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3253,36): message : in expansion of macro ‘nswap16’
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3253,36): message :        unknown_attrs[(*ua_num)++] = nswap16(attr_type);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3253,36): message :                                     ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3356,98): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3356,98): warning :   stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3356,98): warning :                                                                                                   ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3681,101): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3681,101): warning :      stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, *err_code, *reason, tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(3681,101): warning :                                                                                                      ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4054,96): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4054,96): warning :    stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, NULL, &tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4054,96): warning :                                                                                                 ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4072,99): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4072,99): warning :     stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, reason, &tid);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4072,99): warning :                                                                                                    ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4192,108): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4192,108): warning :    old_stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, NULL, &tid, cookie);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4192,108): warning :                                                                                                             ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4209,111): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4209,111): warning :     old_stun_init_error_response_str(method, ioa_network_buffer_data(nbh), &len, err_code, reason, &tid, cookie);
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4209,111): warning :                                                                                                                ^
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4209,111): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_turn_server.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4209,111): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_turn_server.o /tmp/ccRjBQnW.s
+D:\软件项目\TurnServer\TurnServer\common\ns_turn_server.cpp(4209,111): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   ns_turn_utils.cpp
   stun_buffer.cpp
   dbdriver.cpp
@@ -261,163 +261,163 @@ D:\软件项目\SharpRTSP-master\TurnServer\common\ns_turn_server.cpp(4209,111):
   dbd_redis.cpp
   dbd_sqlite.cpp
   main.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1018,27): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1018,27): warning :     key[i] = (rand() % 10) + 48;
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1018,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1022,27): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1022,27): warning :     key[i] = (rand() % 26) + 65;
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1022,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1026,27): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1026,27): warning :     key[i] = (rand() % 26) + 97;
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1026,27): warning :                            ^
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1233,57): warning : conversion to ‘turnserver_id {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1233,57): warning :     turn_params.general_relay_servers_number = atoi(value);
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1233,57): warning :                                                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1255,36): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1255,36): warning :    turn_params.min_port = atoi(value);
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1255,36): warning :                                     ^
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1258,36): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1258,36): warning :    turn_params.max_port = atoi(value);
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1258,36): warning :                                     ^
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1258,36): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/main.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1258,36): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/main.o /tmp/ccESvFF6.s
-D:\软件项目\SharpRTSP-master\TurnServer\main.cpp(1258,36): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\main.cpp(1018,27): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\main.cpp(1018,27): warning :     key[i] = (rand() % 10) + 48;
+D:\软件项目\TurnServer\TurnServer\main.cpp(1018,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\main.cpp(1022,27): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\main.cpp(1022,27): warning :     key[i] = (rand() % 26) + 65;
+D:\软件项目\TurnServer\TurnServer\main.cpp(1022,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\main.cpp(1026,27): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\main.cpp(1026,27): warning :     key[i] = (rand() % 26) + 97;
+D:\软件项目\TurnServer\TurnServer\main.cpp(1026,27): warning :                            ^
+D:\软件项目\TurnServer\TurnServer\main.cpp(1233,57): warning : conversion to ‘turnserver_id {aka unsigned char}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\main.cpp(1233,57): warning :     turn_params.general_relay_servers_number = atoi(value);
+D:\软件项目\TurnServer\TurnServer\main.cpp(1233,57): warning :                                                          ^
+D:\软件项目\TurnServer\TurnServer\main.cpp(1255,36): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\main.cpp(1255,36): warning :    turn_params.min_port = atoi(value);
+D:\软件项目\TurnServer\TurnServer\main.cpp(1255,36): warning :                                     ^
+D:\软件项目\TurnServer\TurnServer\main.cpp(1258,36): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\main.cpp(1258,36): warning :    turn_params.max_port = atoi(value);
+D:\软件项目\TurnServer\TurnServer\main.cpp(1258,36): warning :                                     ^
+D:\软件项目\TurnServer\TurnServer\main.cpp(1258,36): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/main.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\main.cpp(1258,36): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/main.o /tmp/ccDm3own.s
+D:\软件项目\TurnServer\TurnServer\main.cpp(1258,36): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   dtls_listener.cpp
   http_server.cpp
   libtelnet.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(51,30): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(51,30): warning :  #define Q_MAKE(us,him) ((us) | ((him) << 4))
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(51,30): warning :                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(299,25): message : in expansion of macro ‘Q_MAKE’
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(299,25): message :     telnet->q[i].state = Q_MAKE(us,him);
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(299,25): message :                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(51,30): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(51,30): warning :  #define Q_MAKE(us,him) ((us) | ((him) << 4))
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(51,30): warning :                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(319,36): message : in expansion of macro ‘Q_MAKE’
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(319,36): message :   telnet->q[telnet->q_size].state = Q_MAKE(us, him);
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(319,36): message :                                     ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(320,17): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(320,17): warning :   telnet->q_size += 4;
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(320,17): warning :                  ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(320,17): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/libtelnet.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(320,17): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/libtelnet.o /tmp/ccrbQhpD.s
-D:\软件项目\SharpRTSP-master\TurnServer\server\libtelnet.cpp(320,17): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(51,30): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(51,30): warning :  #define Q_MAKE(us,him) ((us) | ((him) << 4))
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(51,30): warning :                               ^
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(299,25): message : in expansion of macro ‘Q_MAKE’
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(299,25): message :     telnet->q[i].state = Q_MAKE(us,him);
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(299,25): message :                          ^
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(51,30): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(51,30): warning :  #define Q_MAKE(us,him) ((us) | ((him) << 4))
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(51,30): warning :                               ^
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(319,36): message : in expansion of macro ‘Q_MAKE’
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(319,36): message :   telnet->q[telnet->q_size].state = Q_MAKE(us, him);
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(319,36): message :                                     ^
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(320,17): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(320,17): warning :   telnet->q_size += 4;
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(320,17): warning :                  ^
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(320,17): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/libtelnet.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(320,17): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/libtelnet.o /tmp/cc1FPtLO.s
+D:\软件项目\TurnServer\TurnServer\server\libtelnet.cpp(320,17): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   netengine.c
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(283,14): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(283,14): warning :   khint_t h = *s;
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(283,14): warning :               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(286,4): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(286,4): warning :     h = (h << 5) - h + *s;
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(286,4): warning :     ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(291,21): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(291,21): warning :   khint_t h = tolower((int)*s);
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(291,21): warning :                      ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(294,30): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(294,30): warning :     h = (h << 5) - h + tolower((int)*s);
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(294,30): warning :                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(299,14): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(299,14): warning :   khint_t h = *(s->str);
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(299,14): warning :               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(303,4): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(303,4): warning :     h = (h << 5) - h + s->str[i];
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(303,4): warning :     ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(309,21): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(309,21): warning :   khint_t h = tolower((int)(*(s->str)));
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(309,21): warning :                      ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(313,30): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(313,30): warning :     h = (h << 5) - h + tolower((int)(s->str[i]));
-D:\软件项目\SharpRTSP-master\TurnServer\server\..\common\ns_turn_khash.h(313,30): warning :                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(533,42): warning : conversion to ‘uint32_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(533,42): warning :    size_t dest = (hash_int32(addr_get_port(&(sm->m.sm.nd.src_addr)))) % get_real_general_relay_servers_number();
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(533,42): warning :                                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(590,19): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(590,19): warning :    size_t dest = id-TURNSERVER_ID_BOUNDARY_BETWEEN_TCP_AND_UDP;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(590,19): warning :                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(722,19): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(722,19): warning :    size_t dest = id-TURNSERVER_ID_BOUNDARY_BETWEEN_TCP_AND_UDP;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(722,19): warning :                    ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1178,41): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1178,41): warning :     turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1178,41): warning :                                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1181,42): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1181,42): warning :      turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1181,42): warning :                                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1187,41): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1187,41): warning :     turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1187,41): warning :                                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1190,42): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1190,42): warning :      turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1190,42): warning :                                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1195,41): warning : conversion to ‘turnserver_id’ from ‘unsigned int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1195,41): warning :     turn_params.udp_relay_servers_number += (unsigned int) turn_params.aux_servers_list.size;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1195,41): warning :                                          ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1219,36): warning : conversion to ‘turnserver_id’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1219,36): warning :      udp_rs->id = (turnserver_id) i + TURNSERVER_ID_BOUNDARY_BETWEEN_TCP_AND_UDP;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1219,36): warning :                                     ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1234,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1234,3): warning :    int index = i;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1234,3): warning :    ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1262,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1262,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1355,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1355,3): warning :    int index = i;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1355,3): warning :    ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1377,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1377,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1438,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1438,3): warning :    int index = i;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1438,3): warning :    ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1458,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1458,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1533,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1533,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1895,24): warning : conversion to ‘authserver_id’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1895,24): warning :   authserver_number = 1 + (authserver_id)(turn_params.cpus / 2);
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1895,24): warning :                         ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1904,78): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1904,78): warning :   barrier_count = turn_params.general_relay_servers_number+authserver_number+1+1;
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1904,78): warning :                                                                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1904,78): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/netengine.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wno-pointer-sign' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fexceptions' '-std=c99' '-D' '_GNU_SOURCE' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1904,78): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/netengine.o /tmp/ccZJ4y6U.s
-D:\软件项目\SharpRTSP-master\TurnServer\server\netengine.c(1904,78): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(283,14): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(283,14): warning :   khint_t h = *s;
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(283,14): warning :               ^
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(286,4): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(286,4): warning :     h = (h << 5) - h + *s;
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(286,4): warning :     ^
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(291,21): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(291,21): warning :   khint_t h = tolower((int)*s);
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(291,21): warning :                      ^
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(294,30): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(294,30): warning :     h = (h << 5) - h + tolower((int)*s);
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(294,30): warning :                               ^
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(299,14): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(299,14): warning :   khint_t h = *(s->str);
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(299,14): warning :               ^
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(303,4): warning : conversion to ‘khint_t’ from ‘char’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(303,4): warning :     h = (h << 5) - h + s->str[i];
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(303,4): warning :     ^
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(309,21): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(309,21): warning :   khint_t h = tolower((int)(*(s->str)));
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(309,21): warning :                      ^
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(313,30): warning : conversion to ‘khint_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(313,30): warning :     h = (h << 5) - h + tolower((int)(s->str[i]));
+D:\软件项目\TurnServer\TurnServer\server\..\common\ns_turn_khash.h(313,30): warning :                               ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(533,42): warning : conversion to ‘uint32_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(533,42): warning :    size_t dest = (hash_int32(addr_get_port(&(sm->m.sm.nd.src_addr)))) % get_real_general_relay_servers_number();
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(533,42): warning :                                           ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(590,19): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(590,19): warning :    size_t dest = id-TURNSERVER_ID_BOUNDARY_BETWEEN_TCP_AND_UDP;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(590,19): warning :                    ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(722,19): warning : conversion to ‘size_t’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(722,19): warning :    size_t dest = id-TURNSERVER_ID_BOUNDARY_BETWEEN_TCP_AND_UDP;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(722,19): warning :                    ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1178,41): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1178,41): warning :     turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1178,41): warning :                                          ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1181,42): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1181,42): warning :      turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1181,42): warning :                                           ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1187,41): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1187,41): warning :     turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1187,41): warning :                                          ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1190,42): warning : conversion to ‘turnserver_id’ from ‘size_t’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1190,42): warning :      turn_params.udp_relay_servers_number += turn_params.listener.addrs_number;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1190,42): warning :                                           ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1195,41): warning : conversion to ‘turnserver_id’ from ‘unsigned int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1195,41): warning :     turn_params.udp_relay_servers_number += (unsigned int) turn_params.aux_servers_list.size;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1195,41): warning :                                          ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1219,36): warning : conversion to ‘turnserver_id’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1219,36): warning :      udp_rs->id = (turnserver_id) i + TURNSERVER_ID_BOUNDARY_BETWEEN_TCP_AND_UDP;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1219,36): warning :                                     ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1234,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1234,3): warning :    int index = i;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1234,3): warning :    ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1262,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1262,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1355,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1355,3): warning :    int index = i;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1355,3): warning :    ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1377,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1377,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1438,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1438,3): warning :    int index = i;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1438,3): warning :    ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1458,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1458,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1533,38): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1533,3): warning : conversion to ‘int’ from ‘size_t’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1895,24): warning : conversion to ‘authserver_id’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1895,24): warning :   authserver_number = 1 + (authserver_id)(turn_params.cpus / 2);
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1895,24): warning :                         ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1904,78): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1904,78): warning :   barrier_count = turn_params.general_relay_servers_number+authserver_number+1+1;
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1904,78): warning :                                                                               ^
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1904,78): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/netengine.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wno-pointer-sign' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fexceptions' '-std=c99' '-D' '_GNU_SOURCE' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1904,78): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/netengine.o /tmp/cc8BYx4h.s
+D:\软件项目\TurnServer\TurnServer\server\netengine.c(1904,78): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   ns_ioalib_engine_impl.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(565,81): warning : conversion to ‘short int’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(565,81): warning :    struct event *ev = event_new(e->event_base, -1, flags, timer_event_handler, te);
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(565,81): warning :                                                                                  ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3555,23): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3555,23): warning :   buf_elem->buf.offset += offset;
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3555,23): warning :                        ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3556,24): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3556,24): warning :   buf_elem->buf.coffset += coffset;
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3556,24): warning :                         ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning : conversion to ‘size_t {aka unsigned int}’ from ‘uint64_t {aka long long unsigned int}’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning :        ss->total_rate = ss->received_rate + ss->sent_rate;
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning :                                           ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_ioalib_engine_impl.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_ioalib_engine_impl.o /tmp/ccvV9Q2y.s
-D:\软件项目\SharpRTSP-master\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(565,81): warning : conversion to ‘short int’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(565,81): warning :    struct event *ev = event_new(e->event_base, -1, flags, timer_event_handler, te);
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(565,81): warning :                                                                                  ^
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3555,23): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3555,23): warning :   buf_elem->buf.offset += offset;
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3555,23): warning :                        ^
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3556,24): warning : conversion to ‘unsigned char’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3556,24): warning :   buf_elem->buf.coffset += coffset;
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3556,24): warning :                         ^
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning : conversion to ‘size_t {aka unsigned int}’ from ‘uint64_t {aka long long unsigned int}’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning :        ss->total_rate = ss->received_rate + ss->sent_rate;
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning :                                           ^
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/ns_ioalib_engine_impl.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/ns_ioalib_engine_impl.o /tmp/ccuffpSP.s
+D:\软件项目\TurnServer\TurnServer\server\ns_ioalib_engine_impl.cpp(3715,42): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   tls_listener.cpp
   turn_admin_server.cpp
   turn_ports.cpp
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(223,32): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(223,32): warning :       turnports_release(tp, port);
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(223,32): warning :                                 ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(233,34): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(233,34): warning :         turnports_release(tp, port);
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(233,34): warning :                                   ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(235,53): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(235,53): warning :        else if (!turnports_is_available(tp, rtcp_port)) {
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(235,53): warning :                                                      ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(236,34): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(236,34): warning :         turnports_release(tp, port);
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(236,34): warning :                                   ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(385,62): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(385,62): warning :     turnports_release((turnports*)t, addr_get_port(socket_addr));
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(385,62): warning :                                                               ^
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(385,62): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/turn_ports.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(385,62): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/turn_ports.o /tmp/cc8f1Tbh.s
-D:\软件项目\SharpRTSP-master\TurnServer\server\turn_ports.cpp(385,62): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(223,32): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(223,32): warning :       turnports_release(tp, port);
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(223,32): warning :                                 ^
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(233,34): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(233,34): warning :         turnports_release(tp, port);
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(233,34): warning :                                   ^
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(235,53): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(235,53): warning :        else if (!turnports_is_available(tp, rtcp_port)) {
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(235,53): warning :                                                      ^
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(236,34): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(236,34): warning :         turnports_release(tp, port);
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(236,34): warning :                                   ^
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(385,62): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(385,62): warning :     turnports_release((turnports*)t, addr_get_port(socket_addr));
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(385,62): warning :                                                               ^
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(385,62): warning : COLLECT_GCC_OPTIONS='-c' '-g2' '-gdwarf-2' '-o' '/home/li/projects/TurnServer/obj/x86/Debug/turn_ports.o' '-Wall' '-Wswitch' '-Wno-deprecated-declarations' '-Wempty-body' '-Wconversion' '-Wreturn-type' '-Wparentheses' '-Wformat=0' '-Wuninitialized' '-Wunused-function' '-Wunused-value' '-Wunused-variable' '-v' '-O0' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fthreadsafe-statics' '-fexceptions' '-frtti' '-std=c++98' '-D' '_GNU_SOURCE' '-shared-libgcc' '-mtune=generic' '-march=i686'
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(385,62): warning :  as -v --32 -o /home/li/projects/TurnServer/obj/x86/Debug/turn_ports.o /tmp/ccBXVLxG.s
+D:\软件项目\TurnServer\TurnServer\server\turn_ports.cpp(385,62): warning : GNU汇编版本 2.24 (i686-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.24
   userdb.cpp
   Linking objects
 E:\VS2017\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets(379,5): error : GNU ld (GNU Binutils for Ubuntu) 2.24
@@ -837,4 +837,4 @@ FIXME : error :       pad the .data section.  */
 /DISCARD/  : error : found libcrypt.so.1 at //lib/i386-linux-gnu/libcrypt.so.1
 /DISCARD/  : error : libffi.so.6 needed by //usr/lib/i386-linux-gnu/libp11-kit.so.0
 /DISCARD/  : error : found libffi.so.6 at //usr/lib/i386-linux-gnu/libffi.so.6
-  TurnServer.vcxproj -> D:\软件项目\SharpRTSP-master\TurnServer\bin\x86\Debug\TurnServer.out
+  TurnServer.vcxproj -> D:\软件项目\TurnServer\TurnServer\bin\x86\Debug\TurnServer.out
