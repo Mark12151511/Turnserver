@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{fe8064de-791d-4c9b-84d2-8681df76d20b}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>TurnServer</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{D51BCBC9-82E9-4017-911E-C93873C4EA2B}</LinuxProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <UseOfStl>libstdc++_shared</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <UseOfStl>libstdc++_shared</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <RemoteLdToolExe>g++</RemoteLdToolExe>
+    <LocalRemoteCopySources>true</LocalRemoteCopySources>
+    <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <RemoteLdToolExe>g++</RemoteLdToolExe>
+    <LocalRemoteCopySources>true</LocalRemoteCopySources>
+    <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="common\apputils.cpp" />
+    <ClCompile Include="common\hiredis_libevent2.cpp" />
+    <ClCompile Include="common\ns_turn_allocation.cpp" />
+    <ClCompile Include="common\ns_turn_ioaddr.cpp" />
+    <ClCompile Include="common\ns_turn_maps.cpp" />
+    <ClCompile Include="common\ns_turn_maps_rtcp.cpp" />
+    <ClCompile Include="common\ns_turn_msg.cpp" />
+    <ClCompile Include="common\ns_turn_msg_addr.cpp" />
+    <ClCompile Include="common\ns_turn_server.cpp" />
+    <ClCompile Include="common\ns_turn_utils.cpp" />
+    <ClCompile Include="common\stun_buffer.cpp" />
+    <ClCompile Include="dbdriver\dbdriver.cpp" />
+    <ClCompile Include="dbdriver\dbd_mongo.cpp" />
+    <ClCompile Include="dbdriver\dbd_mysql.cpp" />
+    <ClCompile Include="dbdriver\dbd_pgsql.cpp" />
+    <ClCompile Include="dbdriver\dbd_redis.cpp" />
+    <ClCompile Include="dbdriver\dbd_sqlite.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="server\dtls_listener.cpp" />
+    <ClCompile Include="server\http_server.cpp" />
+    <ClCompile Include="server\libtelnet.cpp" />
+    <ClCompile Include="server\netengine.c" />
+    <ClCompile Include="server\ns_ioalib_engine_impl.cpp" />
+    <ClCompile Include="server\tls_listener.cpp" />
+    <ClCompile Include="server\turn_admin_server.cpp" />
+    <ClCompile Include="server\turn_ports.cpp" />
+    <ClCompile Include="server\userdb.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\apputils.h" />
+    <ClInclude Include="common\hiredis_libevent2.h" />
+    <ClInclude Include="common\ns_ioalib_impl.h" />
+    <ClInclude Include="common\ns_turn_allocation.h" />
+    <ClInclude Include="common\ns_turn_ioaddr.h" />
+    <ClInclude Include="common\ns_turn_ioalib.h" />
+    <ClInclude Include="common\ns_turn_khash.h" />
+    <ClInclude Include="common\ns_turn_maps.h" />
+    <ClInclude Include="common\ns_turn_maps_rtcp.h" />
+    <ClInclude Include="common\ns_turn_msg.h" />
+    <ClInclude Include="common\ns_turn_msg_addr.h" />
+    <ClInclude Include="common\ns_turn_msg_defs.h" />
+    <ClInclude Include="common\ns_turn_msg_defs_experimental.h" />
+    <ClInclude Include="common\ns_turn_openssl.h" />
+    <ClInclude Include="common\ns_turn_server.h" />
+    <ClInclude Include="common\ns_turn_session.h" />
+    <ClInclude Include="common\ns_turn_utils.h" />
+    <ClInclude Include="common\stun_buffer.h" />
+    <ClInclude Include="dbdriver\dbdriver.h" />
+    <ClInclude Include="dbdriver\dbd_mongo.h" />
+    <ClInclude Include="dbdriver\dbd_mysql.h" />
+    <ClInclude Include="dbdriver\dbd_pgsql.h" />
+    <ClInclude Include="dbdriver\dbd_redis.h" />
+    <ClInclude Include="dbdriver\dbd_sqlite.h" />
+    <ClInclude Include="mainheader.h" />
+    <ClInclude Include="ns_turn_defs.h" />
+    <ClInclude Include="server\dtls_listener.h" />
+    <ClInclude Include="server\http_server.h" />
+    <ClInclude Include="server\libtelnet.h" />
+    <ClInclude Include="server\ns_sm.h" />
+    <ClInclude Include="server\tls_listener.h" />
+    <ClInclude Include="server\turn_admin_server.h" />
+    <ClInclude Include="server\turn_ports.h" />
+    <ClInclude Include="server\userdb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cert.pem">
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyToOutputDir>
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyToOutputDir>
+    </None>
+    <None Include="privkey.pem">
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyToOutputDir>
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyToOutputDir>
+    </None>
+    <None Include="turndb.db">
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyToOutputDir>
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyToOutputDir>
+    </None>
+    <None Include="turnserver.conf">
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</RemoteCopyToOutputDir>
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Release|x86'">true</RemoteCopyToOutputDir>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions> -D_GNU_SOURCE  %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions> -D_GNU_SOURCE  %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <AdditionalOptions> -D_GNU_SOURCE  %(AdditionalOptions)</AdditionalOptions>
+      <CppLanguageStandard>c++98</CppLanguageStandard>
+      <Verbose>true</Verbose>
+      <CLanguageStandard>c99</CLanguageStandard>
+    </ClCompile>
+    <Link>
+      <ShowProgress>false</ShowProgress>
+    </Link>
+    <Link>
+      <Version>false</Version>
+    </Link>
+    <Link>
+      <VerboseOutput>true</VerboseOutput>
+      <Trace>false</Trace>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>-L/usr/lib/x86_64-linux-gnu/ -lcrypto -lssl %(AdditionalOptions)</AdditionalOptions>
+      <LibraryDependencies>%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalDependencies>/usr/lib/i386-linux-gnu/libcrypto.so;/usr/lib/i386-linux-gnu/libsqlite3.so;/usr/lib/libpq.so;/usr/lib/i386-linux-gnu/libmysqlclient.so;/usr/lib/i386-linux-gnu/libssl.so;/usr/lib/i386-linux-gnu/libevent_openssl.so;/usr/lib/i386-linux-gnu/libhiredis.so;/usr/lib/i386-linux-gnu/libevent.so;/usr/lib/i386-linux-gnu/libevent_pthreads.so;/usr/lib/i386-linux-gnu/libpthread.so;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <AdditionalOptions> -D_GNU_SOURCE  %(AdditionalOptions)</AdditionalOptions>
+      <CppLanguageStandard>c++98</CppLanguageStandard>
+      <Verbose>true</Verbose>
+      <CLanguageStandard>c99</CLanguageStandard>
+    </ClCompile>
+    <Link>
+      <ShowProgress>false</ShowProgress>
+    </Link>
+    <Link>
+      <Version>false</Version>
+    </Link>
+    <Link>
+      <VerboseOutput>true</VerboseOutput>
+      <Trace>false</Trace>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>-L/usr/lib/x86_64-linux-gnu/ -lcrypto -lssl %(AdditionalOptions)</AdditionalOptions>
+      <LibraryDependencies>%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalDependencies>/usr/lib/i386-linux-gnu/libcrypto.so;/usr/lib/i386-linux-gnu/libsqlite3.so;/usr/lib/libpq.so;/usr/lib/i386-linux-gnu/libmysqlclient.so;/usr/lib/i386-linux-gnu/libssl.so;/usr/lib/i386-linux-gnu/libevent_openssl.so;/usr/lib/i386-linux-gnu/libhiredis.so;/usr/lib/i386-linux-gnu/libevent.so;/usr/lib/i386-linux-gnu/libevent_pthreads.so;/usr/lib/i386-linux-gnu/libpthread.so;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

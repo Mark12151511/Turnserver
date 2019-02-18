@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="server\ns_ioalib_engine_impl.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\dtls_listener.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\http_server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\libtelnet.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\tls_listener.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\turn_admin_server.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\turn_ports.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="server\userdb.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="dbdriver\dbd_mongo.cpp">
+      <Filter>dbdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="dbdriver\dbd_mysql.cpp">
+      <Filter>dbdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="dbdriver\dbd_pgsql.cpp">
+      <Filter>dbdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="dbdriver\dbd_redis.cpp">
+      <Filter>dbdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="dbdriver\dbd_sqlite.cpp">
+      <Filter>dbdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="dbdriver\dbdriver.cpp">
+      <Filter>dbdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="common\apputils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\hiredis_libevent2.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_allocation.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_ioaddr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_maps.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_maps_rtcp.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_msg.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_msg_addr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_server.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ns_turn_utils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\stun_buffer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="server\netengine.c">
+      <Filter>server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{27333be7-f38a-4813-849d-fb4d822e0616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{c3e21a3a-a3e5-45b4-a158-a72acbab1836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbdriver">
+      <UniqueIdentifier>{56609ebd-61ce-4cc0-88f2-b69a57973dd6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ns_turn_defs.h" />
+    <ClInclude Include="server\dtls_listener.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\http_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\libtelnet.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\ns_sm.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\tls_listener.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\turn_admin_server.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\turn_ports.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="server\userdb.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="dbdriver\dbdriver.h">
+      <Filter>dbdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="dbdriver\dbd_mongo.h">
+      <Filter>dbdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="dbdriver\dbd_mysql.h">
+      <Filter>dbdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="dbdriver\dbd_pgsql.h">
+      <Filter>dbdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="dbdriver\dbd_redis.h">
+      <Filter>dbdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="dbdriver\dbd_sqlite.h">
+      <Filter>dbdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="common\apputils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\hiredis_libevent2.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_ioalib_impl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_allocation.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_ioaddr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_ioalib.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_khash.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_maps.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_maps_rtcp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_msg.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_msg_addr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_msg_defs.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_msg_defs_experimental.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_openssl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_server.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_session.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ns_turn_utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\stun_buffer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="mainheader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cert.pem" />
+    <None Include="privkey.pem" />
+    <None Include="turnserver.conf" />
+    <None Include="turndb.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+</Project>
